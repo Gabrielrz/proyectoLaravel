@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Propietario extends Model
 {
+
+  protected $table = 'propietarios';
+
     //
 
 
@@ -25,7 +28,7 @@ class Propietario extends Model
     //protected $guard=['password','is_admin'];para que no se puede modificar estas columnas desde la aplicacion
     //evita la inyeccion de codigo
 
-    
+
 
 
 }
